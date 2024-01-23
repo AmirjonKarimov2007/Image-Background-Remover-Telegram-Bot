@@ -1,1 +1,1 @@
-gunicorn telegram_bot:application
+web: gunicorn telegram_bot:application
