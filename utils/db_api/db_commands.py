@@ -17,7 +17,7 @@ class Database:
             password=config.DB_PASS,
             host=config.DB_HOST,
             database=config.DB_NAME,
-            port=config.DB_PORT
+            port=config.DB_PORT,
         )
 
     async def execute(
@@ -70,7 +70,7 @@ class Database:
 
 
     async def select_all_users(self):
-        sql = "SELECT * FROM Users"
+        sql = "SELECT * FROM users_user"
         return await self.execute(sql, fetch=True)
 
     async def select_user(self, **kwargs):

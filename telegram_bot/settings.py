@@ -129,7 +129,7 @@ USE_TZ = True
 import os
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR,'staticfiless')]
-STATIC_ROOT = str(BASE_DIR.joinpath('staticfiless'))
+# STATIC_ROOT = str(BASE_DIR.joinpath('staticfiless'))
 STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 
 # Default primary key field type
