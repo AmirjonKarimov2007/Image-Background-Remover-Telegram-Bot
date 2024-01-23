@@ -8,3 +8,5 @@ async def set_default_commands(dp):
             types.BotCommand("help", "Yordam"),
         ]
     )
+
+
