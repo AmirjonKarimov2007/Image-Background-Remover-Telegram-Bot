@@ -33,7 +33,8 @@ SECRET_KEY = 'django-insecure-e8s0w-j9fp99kbpfg&sf#1&qydzbejlq4d23gth1b-75imrs11
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['gunicorn-telegrambot-production.up.railway.app']
+ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://gunicorn-telegrambot-production.up.railway.app/']
 
 
 # Application definition
@@ -121,7 +122,6 @@ LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'Asia/Tashkent'
 USE_I18N = True
-
 USE_TZ = True
 
 
