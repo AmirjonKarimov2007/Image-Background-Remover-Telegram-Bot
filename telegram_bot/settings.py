@@ -34,7 +34,6 @@ SECRET_KEY = 'django-insecure-e8s0w-j9fp99kbpfg&sf#1&qydzbejlq4d23gth1b-75imrs11
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['https://gunicorn-telegrambot-production.up.railway.app/']
 
 
 # Application definition
